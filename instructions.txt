@@ -1,0 +1,56 @@
+For Cmake to work :
+$ sudo apt-get update
+$ sudo apt-get install cmake
+$ sudo apt-get install build-essential 
+
+install clang
+$ sudo apt-get install clang llvm
+
+For python to work fine 
+$ sudo apt-get install python-dev
+
+For python3.5 (before installing bullet)
+$ sudo apt-get install python3-dev python3-pip python3-tk python3-lxml python3-six
+
+C++Installations bullet opengl flew feeglut
+$ sudo apt-get install freeglut3-dev
+$ sudo apt-get install libbullet-dev libbullet-extras-dev
+$ sudo apt-get install libglew-dev
+
+python intallations pyopengl (python3.5)
+$ sudo pip3 install pyopengl
+$ sudo pip3 install mpi4py
+$ sudo pip3 install tensorflow
+
+python intallations (python3.6)
+$ conda install pyopengl
+$ conda install mpi4py
+$ conda install tensorflow
+
+Misc installations SWIG and MPI
+$ sudo apt-get install swig
+$ sudo apt install libopenmpi-dev 
+
+install requirements
+$ sudo pip3 install -r requirements.txt
+
+Modify Makefile in DeepMimicCore
+sudo find / -name "Python.h"
+EIGEN_DIR = /home/ubuntu/virgin_or_project/eigen
+BULLET_INC_DIR = /usr/include/bullet
+PYTHON_INC = /usr/include/python3.5m
+PYTHON_INC = /home/ubuntu/anaconda3/include/python3.6m
+PYTHON_LIB = /usr/lib/
+PYTHON_LIB = /home/ubuntu/anaconda3/lib
+
+
+$ make python
+
+FINDS OPENGL LIBRARY
+$ sudo apt-get install --reinstall libgl1-mesa-glx
+
+INSTALL pyOPENGL (NO BIG RESULTS)
+$ sudo apt-get install libglew1.5-dev libglm-dev
+$ sudo apt-get install python python-numpy python-opengl python-qt4 python-qt4-gl
+
+python3 DeepMimic.py --arg_file args/run_humanoid3d_spinkick_args.txt
