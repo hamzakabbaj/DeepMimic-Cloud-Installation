@@ -1,3 +1,22 @@
+One line installations : 
+$ sudo apt-get install cmake build-essential clang llvm python-dev freeglut3-dev libbullet-dev libbullet-extras-dev  libglew-dev swig libopenmpi-dev 
+
+$ sudo pip3 install pyopengl mpi4py tensorflow
+
+install requirements
+$ sudo pip3 install -r requirements.txt
+
+Modify Makefile in DeepMimicCore
+sudo find / -name "Python.h"
+EIGEN_DIR = /home/hamza/Desktop/virgin_or_project/eigen
+BULLET_INC_DIR = /usr/include/bullet
+PYTHON_INC = /usr/include/python3.6m
+PYTHON_LIB = /usr/lib/ -lpython3.6m
+
+$ make python
+
+
+
 For Cmake to work :
 $ sudo apt-get update
 $ sudo apt-get install cmake
@@ -31,20 +50,6 @@ Misc installations SWIG and MPI
 $ sudo apt-get install swig
 $ sudo apt install libopenmpi-dev 
 
-install requirements
-$ sudo pip3 install -r requirements.txt
-
-Modify Makefile in DeepMimicCore
-sudo find / -name "Python.h"
-EIGEN_DIR = /home/ubuntu/virgin_or_project/eigen
-BULLET_INC_DIR = /usr/include/bullet
-PYTHON_INC = /usr/include/python3.5m
-PYTHON_INC = /home/ubuntu/anaconda3/include/python3.6m
-PYTHON_LIB = /usr/lib/
-PYTHON_LIB = /home/ubuntu/anaconda3/lib
-
-
-$ make python
 
 FINDS OPENGL LIBRARY
 $ sudo apt-get install --reinstall libgl1-mesa-glx
