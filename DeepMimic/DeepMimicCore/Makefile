@@ -2,16 +2,12 @@ BIN=Main
 OBJ_DIR = objs
 MKDIR = mkdir -p
 
-EIGEN_DIR = /home/ubuntu/virgin_or_project/eigen #../../libraries/eigen
-BULLET_INC_DIR = /usr/include/bullet # ../../libraries/bullet3/src
+EIGEN_DIR = /home/ubuntu/virgin_or_project/eigen 
+BULLET_INC_DIR = /usr/include/bullet 
 
 PYTHON_INC = /usr/include/python3.5m
-PYTHON_INC = /home/ubuntu/anaconda3/include/python3.6m
-PYTHON_LIB = /usr/lib/ -lpython3.6m
-PYTHON_LIB = /home/ubuntu/anaconda3/lib -lpython3.6m
+PYTHON_LIB = /usr/lib/ -lpython3.5m
 
-#PYTHON_INC = /usr/include/python3.6m
-#PYTHON_LIB = /usr/lib/ -lpython3.6m
 
 INC = -I./ \
 	-I$(EIGEN_DIR) \
