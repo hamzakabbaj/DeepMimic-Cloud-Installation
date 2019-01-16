@@ -3,13 +3,11 @@ OBJ_DIR = objs
 MKDIR = mkdir -p
 
 EIGEN_DIR = /home/hamza_kabbaj_01/virgin_or_project/eigen #../../libraries/eigen
-BULLET_INC_DIR = /usr/include/bullet # ../../libraries/bullet3/src
+BULLET_INC_DIR = /usr/include/bullet 
 
 PYTHON_INC = /usr/include/python3.5m
 PYTHON_LIB = /usr/lib/ -lpython3.5m
 
-#PYTHON_INC = /usr/include/python3.6m
-#PYTHON_LIB = /usr/lib/ -lpython3.6m
 
 INC = -I./ \
 	-I$(EIGEN_DIR) \
