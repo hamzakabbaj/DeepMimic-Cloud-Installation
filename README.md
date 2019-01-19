@@ -1,11 +1,11 @@
 # DeepMimic Installation in Google Cloud
 
-The purpose of this repository is to help student of MVA master to install DeepMimic and run tests as fast as possible.
-We will be using Google cloud Virtual Machine.
+The purpose of this repository is to help students of MVA master install DeepMimic and run tests as fast as possible.
+We will be using Google cloud Virtual Machines.
 
 Note that there are two parts in DeepMimic :
 - First, visualising the results 
-- Second, launch trainings
+- Second, launching trainings
 
 We will show only how to launch trainings which is the most important part of the project.
 One advice, start testing trainings early !! it takes minimum 24 hours for each test.
