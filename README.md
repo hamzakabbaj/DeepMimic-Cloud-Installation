@@ -20,7 +20,7 @@ One advice, start testing trainings early !! it takes minimum 24 hours for each 
 - Choose a VM with 16vCPU
 - Choose Ubuntu 16.04 LTS
 
-## DeepMimic Installation
+## DeepMimic Installations (just copy and paste)
 
 - Clone the repository 
 ```bash
@@ -58,7 +58,7 @@ vi Makefile
 ```
 ``` python
 # DONT FORGET TO CHANGE EIGEN PATH !!!!!
-EIGEN_DIR = /home/ubuntu/DeepMimic_Cloud_Installation/eigen 
+EIGEN_DIR = /home/<Name of your machine>/DeepMimic_Cloud_Installation/eigen # <=== look for the actual path depending on the name of your machine
 BULLET_INC_DIR = /usr/include/bullet 
 
 PYTHON_INC = /usr/include/python3.5m
