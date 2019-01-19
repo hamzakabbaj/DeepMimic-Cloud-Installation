@@ -2,7 +2,7 @@ BIN=Main
 OBJ_DIR = objs
 MKDIR = mkdir -p
 
-EIGEN_DIR = /home/hamza_kabbaj_01/virgin_or_project/eigen 
+EIGEN_DIR = /home/<your machie name>/DeepMimic_Cloud_Installation/eigen # <== Change this path
 BULLET_INC_DIR = /usr/include/bullet 
 
 PYTHON_INC = /usr/include/python3.5m
