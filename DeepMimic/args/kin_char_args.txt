@@ -1,4 +1,4 @@
 --scene kin_char
 
 --character_file data/characters/humanoid3d.txt
---motion_file data/calibration_motions/right_hip_rotation.txt
+--motion_file data/new_motions/hamza.txt
