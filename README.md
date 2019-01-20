@@ -1,6 +1,9 @@
-# DeepMimic Installation in Google Cloud
+# DeepMimic Installation in Google Cloud (takes 10 minutes !!)
 
 The purpose of this repository is to help students of MVA master install DeepMimic and run tests as fast as possible.
+We actually lost several days attempting to make these installations. I hope it wouldn't be the case for you.
+
+
 We will be using Google cloud Virtual Machines.
 
 Note that there are two parts in DeepMimic :
@@ -12,10 +15,12 @@ One advice, start testing trainings early !! it takes minimum 24 hours for each 
 
 
 ## Create a Google cloud Virtual Machine 
+- Go to Compute Engine / VM Instances
+- Create a new VM
 - Choose a VM with 16vCPU
 - Choose Ubuntu 16.04 LTS
 
-## DeepMimic Installation
+## DeepMimic Installations (just copy and paste)
 
 - Clone the repository 
 ```bash
@@ -53,7 +58,7 @@ vi Makefile
 ```
 ``` python
 # DONT FORGET TO CHANGE EIGEN PATH !!!!!
-EIGEN_DIR = /home/ubuntu/DeepMimic_Cloud_Installation/eigen 
+EIGEN_DIR = /home/<Name of your machine>/DeepMimic_Cloud_Installation/eigen # <=== look for the actual path depending on the name of your machine
 BULLET_INC_DIR = /usr/include/bullet 
 
 PYTHON_INC = /usr/include/python3.5m
