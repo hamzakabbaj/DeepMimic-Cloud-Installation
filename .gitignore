@@ -1,1 +1,4 @@
 *.DS_Store
+DeepMimic/calibration_motions
+DeepMimic/local_args
+DeepMimic/new_motions
